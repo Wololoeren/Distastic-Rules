@@ -12,11 +12,15 @@ Zeroth(0) round. play one round where each player may play their ability-card on
 **First round**. First player takes the cup and 6d6 (dice) and start their attack.
 After the first player are done with their turn continue to the next player in a clockwise manner. After everyone have taken their turn, a new round starts
 The game can be configured in many interesting way to suit each player experience and thirst for strategy or complexity, See Game initiation
+
 **Attack-roll**: Roll 6d6 and set aside at least 1 die, goal is to score above 30 when all die are set aside sum them up that is your attack-score. dice NOT yet set aside are considered free dice
+
 **attack-score less than 30**: you take the difference as self-inflicted damage (Ex: score of 25 mean you take 5 damage)
-**attack-score above 30**: make damage roll with 6d6, fx if score is 33 your target number (33-30) is 3 set aside at least one 3 until you roll no 3's then add up the dies set aside and deal that amount of damage to your target 
+
+**attack-score above 30**: make damage-roll with 6d6, fx if score is 33 your target number (33-30) is 3 set aside at least one 3 until you roll no 3's then add up the dies set aside and deal that amount of damage to your target.
 **attack-score equal to 30**: draw an ability card.
-For each roll, after the first dice set aside each additional die set aside are considered extra dice
+
+For each roll, after the first dice set aside each additional die set aside are considered **extra dice**
 **Damage-roll**: if you manage to roll all 6 dies to a valid target number you may continue your damage roll with 6 new die (Rollover).
 If you main target is dead, they remains you main target, you new target is the next alive player sitting clockwise to your main target, ignoring allies unless no enemies are left.
 
