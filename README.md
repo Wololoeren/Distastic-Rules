@@ -6,7 +6,7 @@ The rules and glossary of Dicetastic
 all Players roll for who gets to start.
 place 7 piles face up of each 1 class and 1 ability-card. Starting player select on pile and player continue selecting a pile in a clockwise manner. The remaining card after all players have picked are discarded. 
 Place the class deck and the ability-deck (face down) and their respective discard pile(face up) at the center of the table.
-Note down or set Health-counter for each players starting health as indicated by their first class.
+Note down or set Health-counter for each players starting health as indicated by their first class(white number at the top right coner of the card).
 Zeroth(0) round. play one round where each player may only play their ability-card(s) on their turn, classes remains inactive during round 0. (this is to avoid complete chaos of people try to play cards all at once)
 
 # Start the game
