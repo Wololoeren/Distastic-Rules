@@ -6,18 +6,18 @@ The rules and glossary of Dicetastic
 all Players roll for who gets to start.
 place 7 piles face up of each 1 class and 1 ability-card. Starting player select on pile and player continue selecting a pile in a clockwise manner. The remaining card after all players have picked are discarded. 
 Place the class deck and the ability-deck and their respective discard pile(face up) at the center of the table.
-0. round. play one round where each player may play their ability-card on their turn, classes remains inactive doin round 0. (this is to avoid complete chaos of people try to play cards all at once)
+Zeroth(0) round. play one round where each player may play their ability-card on their turn, classes remains inactive doin round 0. (this is to avoid complete chaos of people try to play cards all at once)
 
 # Start the game
-1. round. First player takes the cup and 6d6 (dice) and start their attack.
+**First round**. First player takes the cup and 6d6 (dice) and start their attack.
 After the first player are done with their turn continue to the next player in a clockwise manner. After everyone have taken their turn, a new round starts
 The game can be configured in many interesting way to suit each player experience and thirst for strategy or complexity, See Game initiation
-Attack-roll: Roll 6d6 and set aside at least 1 die, goal is to score above 30 when all die are set aside sum them up that is your attack-score. dice NOT yet set aside are considered free dice
-attack-score less than 30: you take the difference as self-inflicted damage (Ex: score of 25 mean you take 5 damage)
-attack-score above 30: make damage roll with 6d6, fx if score is 33 your target number (33-30) is 3 set aside at least one 3 until you roll no 3's then add up the dies set aside and deal that amount of damage to your target 
-attack-score equal to 30: draw an ability card.
+**Attack-roll**: Roll 6d6 and set aside at least 1 die, goal is to score above 30 when all die are set aside sum them up that is your attack-score. dice NOT yet set aside are considered free dice
+**attack-score less than 30**: you take the difference as self-inflicted damage (Ex: score of 25 mean you take 5 damage)
+**attack-score above 30**: make damage roll with 6d6, fx if score is 33 your target number (33-30) is 3 set aside at least one 3 until you roll no 3's then add up the dies set aside and deal that amount of damage to your target 
+**attack-score equal to 30**: draw an ability card.
 For each roll, after the first dice set aside each additional die set aside are considered extra dice
-Damage-roll: if you manage to roll all 6 dies to a valid target number you may continue your damage roll with 6 new die (Rollover).
+**Damage-roll**: if you manage to roll all 6 dies to a valid target number you may continue your damage roll with 6 new die (Rollover).
 If you main target is dead, they remains you main target, you new target is the next alive player sitting clockwise to your main target, ignoring allies unless no enemies are left.
 
 # Glossary
@@ -45,18 +45,24 @@ If you main target is dead, they remains you main target, you new target is the 
 **Steal**: Select a random card from another player which you gain.
 **Reroll**: Roll the dice agian and continue with the new result. When a dice is reroll the reroller is the player who rolled the first (original) roll of the dice, even when forced by an enemy. 
 **Permanent gains**: Effects which are increased when triggered, they keep their increased valued until discarded. indicate and track the value with one or more extra dice placed on card.
+"**You**" or "**yourself**" is alway implied unless otherwise is stated.
+**Discard**: place the card face up on top of the discard pile for it respected card type.
+**Remove**: remove the card from play, the card cannot be draw by any means.
+**The current target**: the player or players who is target of an attack this turn.
+**This class**: refers to the class on which the ability is written.
+**Additional Targets**: Some abilities allow for selecting additional target theses are only subejct to results specified by you abilities.
+**Hand and Class-limit**: If you have more than the limit you have to discard down to the limit at the end of your turn.
 
 # Resolving Priority
 **Card-Draw Priority**: When drawing a card you always read it then decide to keep or play it immediately, only when you indicated your intend may the game continue.
 **Play precedence**: The game is first play, first executed (for Active and Ability-cards). Any conflicting precedence, disagreement or ambiguity are resolved by giving the player with the most recent turn priority as goes for **passive-class-ablities**: FX: A and B both draws a ability-card on an "end of round" -trigger, A draws first since they were the last player to have turn, they may play the card before B draws but chooses not to, B draws and A want to Steal B's new card with their "Steal" card. B chooses to play it immediately avoiding A's steal. 
 **Class precedence**: If you have more than one class place them in a row. Apply classes effects left to right you may change the order at the end any turn. 
-Conflicting event execution: If two events is triggered on the same effect and the first event removes the trigger of the second event from play the second event is cancelled. FX A and B both gets an "end of round" trigger, A uses it effect to discards the triggered class of B, thus B does not get to trigger their event. 
-Shared class abilities: You gain the effects of a class as if you had the class yourself. Any effect applied to the shared class are transfered to the original card (fx permanent gains). A class card cannot be discarded/given away though the shared connection.
+**Conflicting event execution**: If two events is triggered on the same effect and the first event removes the trigger of the second event from play the second event is cancelled. FX A and B both gets an "end of round" trigger, A uses it effect to discards the triggered class of B, thus B does not get to trigger their event. 
+**Shared class abilities**: You gain the effects of a class as if you had the class yourself. Any effect applied to the shared class are transfered to the original card (fx permanent gains). A class card cannot be discarded/removed/given away though the shared connection.
 You apply share class-effect from other player in order of most recent turn first after you applied your regular class-effect left to right.
 Shared Classes cannot be shared agian but the same class can be shared to multiple players. If the original class is discard then the shared class is lost.
-Passive resolve order for classes: most recent turn gets priority.
+**Passive resolve order for classes**: most recent turn gets priority.
 A class is resolved by checking the top most trigger and resolving its effect before continuing to the one under.
-**Hand and Class-limit**: If you have more than the limit you have to discard down to the limit at the end of your turn.
 
 
 ## Damage
@@ -69,17 +75,10 @@ Damage types are kept track of individually until all effects are applied then d
 **Spillover damage**: Unique damage instants without an attacker, it is conveted from "damage" and "extra damage" leftover when a player dies.
 
 ## Triggers
-When: Effect is applied with the result (pause ongoing execution resolve then add this result to the ongoing result  then continue).
-Before: Effect is applied before result. (pause the ongoing execution then full resolve this effect then continue)
-After: Effect is applied after result. (pause this execution until the ongoing execution is fully resolved)
+**When**: Effect is applied with the result (pause ongoing execution resolve then add this result to the ongoing result then continue).
+**Before**: Effect is applied before result. (pause the ongoing execution then full resolve this effect then continue)
+**After**: Effect is applied after result. (pause this execution until the ongoing execution is fully resolved)
 
-
-"You" or "yourself" is alway implied unless otherwise is stated.
-Discard: place the card face up on top of the discard pile for it respected card type.
-Remove: remove the card from play, the card cannot be draw by any means.
-The current target: the player or players who is target of an attack this turn.
-This class: refers to the class on which the ability is written.
-Additional Targets: Some abilities allow for selecting additional target theses are only subejct to results specified by you abilities.
 
 # Recommendations
 **Reducting Complexity**: The more classes in play the more overwhelhming and time consuming the game can become it is recommended to set an upper limit for classes, especialy for games with many players or new players.
