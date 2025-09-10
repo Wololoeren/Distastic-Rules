@@ -2,7 +2,7 @@
 The rules and glossary of Dicetastic
 
 # Initalizing Game
-2 teams of 3 players each sits around a table, the teams-members sits in an interleaved order. (A-B-A-B-A-B)
+2 teams of 3 players each sits around a table, the team-members sits in an interleaved order. (A-B-A-B-A-B)
 all Players roll for who gets to start.
 place 7 piles face up of each 1 class and 1 ability-card. Starting player select on pile and player continue selecting a pile in a clockwise manner. The remaining card after all players have picked are discarded. 
 Place the class deck and the ability-deck and their respective discard pile(face up) at the center of the table.
