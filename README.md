@@ -22,12 +22,19 @@ If you main target is dead, they remains you main target, you new target is the 
 
 # Glossary
 **Spillover**: if you deal more damage than the target health has the remaining damage will go to your next target, if no targets are left it goes to yourself or the next ally in a clockwise fashion from the previous target.
+
 **Abilities**: You gain new abilities from you classes and ability-cards which modify your game and chances. most classes give abilities you can benefit from multiple time and ablitiy-cards are consider one time use, thou some cards have overlapping mechanics.
+
 **Ability-card**: You can play an ability-card to execute its effect whenever you want, unless the card specifies otherwise. When playing an abilty-card place it face up infront of you when the cards and all subsequential -effects are resolved move it to the ability discard pile. An ability card is considered "fully"-played, when it is placed in the discard pile. Some ability-cards have on-going effects and may stay infront of you for many rounds, before they are concluded, if you die all on-going ability-cards are discarded.
+
 **Classes**: have one or more abilities which can be either Passive or Active, each ability have 1 effect but can have multiple triggers.  Each trigger is fulfilled by an event. an effect may also have a cost which need to be spend when the effect is triggered. Classes are play immediatly infront of the player
-**Class-Effects**: When a passive-effect or active-effect which you decided to use is triggered push the class card slightly forward until its effect and all subsequential effects are resolved, then slide it back
+
+**Class-Effects**: When a passive-effect or active-effect which you decided to use is triggered push the class card slightly forward until its effect and all subsequential effects are resolved, then slide it back.
+
 **Overcharge**: if you have increased your attack-score with an ability to more than 36 you can still roll your target number as the 6's count as every number above 6 aswell, They add damages equal to the number they were set aside as.
+
 **Rollover**: When all 6 dice has been set aside doing a damage roll, note the sum and pick up all the dice and start over any dice set aside adds to the sum. Rollover can occure multiple times for one damage roll. Dice set aside continues counting up after Rollover
+
 **Health**: Players cannot gain more health than their first starting class, but you may regain health with healing abilities.
 **Passive**: Always do this when triggered.
 **Active**: Cardholder may choose to not resolve the effect when triggered.
