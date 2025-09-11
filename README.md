@@ -42,7 +42,7 @@ If you main target is dead, they remains you main target, you new target is the 
 
 **Rollover**: When all 6 dice has been set aside doing a damage roll, note the sum and pick up all the dice and start over any dice set aside adds to the sum. Rollover can occure multiple times for one damage roll. Dice set aside continues counting up after Rollover
 
-**Health**: Players cannot gain more health than their first starting class, but you may regain health with healing abilities.
+**Health**: Players cannot gain more health than their first starting class, but you may regain lost health with healing abilities.
 
 **Passive**: Always do this when triggered.
 
@@ -68,15 +68,15 @@ If you main target is dead, they remains you main target, you new target is the 
 
 **Choose X of Y**: Draw Y cards and select X of them to keep, Discard the rest unless otherwise specified.
 
-**Flip**: a dice upside down, 1 becomes 6, 2 becomes 5, 3 becomes 4 and vise versa, a flipped dice does not count as "rolled".
+**Flip**: flip a dice upside down, 1 becomes 6, 2 becomes 5, 3 becomes 4 and vise versa, a flipped dice does not count as "rolled".
 
 **Steal**: Select a random card from another player which you gain.
 
 **Reroll**: Roll the dice agian and continue with the new result. When a dice is reroll the reroller is the player who rolled the first (original) roll of the dice, even when forced by an enemy. 
 
-**Permanent gains**: Effects which are increased when triggered, they keep their increased valued until discarded. indicate and track the value with one or more extra dice placed on card.
+**Permanent gains**: Effects which are increased when triggered, they keep their increased valued until discarded. indicate and track the value with one or more dice placed on card.
 
-"**You**" or "**yourself**" is alway implied unless otherwise is stated.
+"**You**" or "**yourself**" is always implied unless otherwise is stated.
 
 **Discard**: place the card face up on top of the discard pile for it respected card type.
 
@@ -93,9 +93,9 @@ If you main target is dead, they remains you main target, you new target is the 
 # Resolving Priority
 **Card-Draw Priority**: When drawing a card you always read it then decide to keep or play it immediately, only when you indicated your intend may the game continue.
 
-**Play precedence**: The game is first play, first executed (for Active and Ability-cards). Any conflicting precedence, disagreement or ambiguity are resolved by giving the player with the most recent turn priority.
+FX: A and B both draws a ability-card on an "end of round" -trigger, A draws first since they were the last player to have turn, they may play the card before B draws but chooses not to, B draws and A want to Steal B's new card with their "Steal" card. B chooses to play it immediately avoiding A's steal. 
 
-**passive-class-ablities**: FX: A and B both draws a ability-card on an "end of round" -trigger, A draws first since they were the last player to have turn, they may play the card before B draws but chooses not to, B draws and A want to Steal B's new card with their "Steal" card. B chooses to play it immediately avoiding A's steal. 
+**Play precedence**: The game is first play, first executed (for Active and Ability-cards). Any conflicting precedence, disagreement or ambiguity are resolved by giving the player with the most recent turn priority.
 
 **Class precedence**: If you have more than one class place them in a row. Apply classes effects left to right you may change the order at the end any turn. 
 
@@ -121,7 +121,7 @@ Damage types are kept track of individually until all effects are applied then d
 
 **Self-inflicted damage**: Unique damage instants without an attacker.
 
-**Spillover damage**: Unique damage instants without an attacker, it is conveted from "damage" and "extra damage" leftover when a player dies.
+**Spillover-damage**: Unique damage instants without an attacker, it is conveted from damage, extra-damage and spillover-damage leftover when a player dies.
 
 ## Triggers
 **When**: Effect is applied with the result (pause ongoing execution resolve then add this result to the ongoing result then continue).
