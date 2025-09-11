@@ -18,7 +18,7 @@ The game can be configured in many interesting way to suit each player experienc
 
 **attack-score less than 30**: you take the difference as self-inflicted damage (Ex: score of 25 mean you take 5 damage)
 
-**attack-score above 30**: make damage-roll with 6d6, fx if score is 33 your **target number**  is 3 (33-30) set aside at least one 3 until you roll no 3's then add up the dies set aside and deal that amount of damage to your target.
+**attack-score above 30**: make damage-roll with 6d6, fx if score is 33 your **target number**  is 3 (33-30) set aside at least one 3 until you roll no 3's then add up the dies set aside and deal that amount of damage to your target. Attack-score greater than 36 still rolls for 6's but they do damage according to your target number.
 
 **attack-score equal to 30**: draw an ability card.
 
