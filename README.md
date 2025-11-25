@@ -173,5 +173,6 @@ If you set aside **all 6 dice** as target numbers, you trigger **Rollover**:
 
 ## Card Explanation
 <img width="1324" height="873" alt="image" src="https://github.com/user-attachments/assets/1b20682f-f659-453f-8014-138721ad68e3" />
-<img width="734" height="530" alt="image" src="https://github.com/user-attachments/assets/acaf0a2a-5ca4-4f3f-9805-3b3b8ca499c7" />
+<img width="1015" height="729" alt="image" src="https://github.com/user-attachments/assets/b63e4bd8-3562-4322-bdca-2dbdb0de3e0b" />
+
 
