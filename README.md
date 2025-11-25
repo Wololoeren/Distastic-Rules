@@ -80,53 +80,28 @@ If you set aside **all 6 dice** as target numbers, you trigger **Rollover**:
 ## Glossary
 
 **Spillover:** If you deal more damage than a target has health remaining, excess damage transfers to the **next valid target** clockwise. If no enemy targets remain, spillover hits yourself or the next ally clockwise.
-
 **Abilities:** Effects gained from classes and ability cards.
-
-**Ability card:** You may play an ability card at any time unless stated otherwise.  
-After resolving, discard it to the ability discard pile. Ongoing ability cards stay in front of you until they end or you die.
-
+**Ability card:** You may play an ability card at any time unless stated otherwise. After resolving, discard it to the ability discard pile. Ongoing ability cards stay in front of you until they end or you die.
 **Classes:** Each class has **Passive** and/or **Active** abilities. Keep your classes in front of you.
-
 **Overcharge:** If an effect increases your target number above 6, you still roll for 6s. Each 6 counts as your target number.
-
 **Health:** You cannot heal above your starting/max health.
-
 **Passive:** Always resolves when triggered.
-
 **Active:** Optional; you may choose whether to resolve it when triggered.
-
 **Dead:** At 0 HP you become dead. Dead players cannot attack, be attacked, be targeted, play cards, or take damage. You can be revived by effects.
-
 **Inactive:** Rotate a class upside down to show it is inactive. You may reactivate **one inactive class at the start of your turn** unless an effect says otherwise.
-
 **Disable:** Flip a class face‑down. It does not function and cannot be reactivated until a condition is met.
-
 **Empower:** Trigger one effect **ignoring its normal triggers**.
-
 **Untargetable:** If other valid targets exist, you cannot be chosen. Forced targeting overrides this only if the forcing effect says it can.
-
-**Heal / Revive:**  
-Heal restores HP up to max. Dead players cannot be healed; they must be revived. Revive returns a dead player to life with **1 HP** and re‑enables their classes.
-
+**Heal / Revive:** Heal restores HP up to max. Dead players cannot be healed; they must be revived. Revive returns a dead player to life with **1 HP** and re‑enables their classes.
 **Overheal**: When you heal a player to regain more than maximum health and the extra overhealed amount is wasted.
-
 **Remove**: remove the card from play, the card cannot be draw by any means.
-
 **Permanent gains:** Effects that increase and stay increased until the class is discarded. Track the value on the card.
-
 **Current target:** The player(s) you are attacking this turn.
-
 **Choose X of Y**: Draw Y cards and select X of them to keep, Discard the rest unless otherwise specified.
-
 **Flip**: flip a dice upside down, 1 becomes 6, 2 becomes 5, 3 becomes 4 and vise versa, a flipped dice does not count as "rolled".
-
 **Steal**: Select a random card from another player which you gain.
-
 **Reroll**: Roll the dice agian and continue with the new result. When a dice is reroll the reroller is the player who rolled the first (original) roll of the dice, even when forced by an enemy. 
-
 **Discard**: place the card face up on top of the discard pile for it respected card type.
-
 **Hand and Class-limit**: If you have more than the limit you have to discard down to the limit at the end of your turn.
 
 ---
@@ -134,13 +109,9 @@ Heal restores HP up to max. Dead players cannot be healed; they must be revived.
 ## Resolving Priority
 
 **Card‑draw priority:** When you draw a card, you must read it and decide whether to keep or play it **before the game continues**.
-
 **Play precedence:** Effects resolve in the order they are played: **first played, first executed**. If still unclear, priority goes to the player with the most recent turn.
-
 **Class precedence:** Resolve your class abilities **left to right**. You may reorder your classes at the end of your turn.
-
 **Conflicting event execution:** If two events trigger simultaneously and the first event removes the second event’s trigger, the second event is cancelled.
-
 **Shared class abilities:** If you share a class, you gain its effects as if you owned it. Shared classes cannot be discarded/removed/transferred via sharing.
 
 ---
@@ -156,9 +127,9 @@ Heal restores HP up to max. Dead players cannot be healed; they must be revived.
 
 ## Triggers
 
-- **When:** Resolve simultaneously with the result (pause current execution, resolve the effect, then continue).
-- **Before:** Resolve before the result (pause execution, fully resolve effect, then continue).
-- **After:** Resolve after the current execution fully finishes.
+- **When**: Effect is applied with the result (pause ongoing execution resolve then add this result to the ongoing result then continue).
+- **Before**: Effect is applied before result. (pause the ongoing execution then full resolve this effect then continue)
+- **After**: Effect is applied after result. (pause this execution until the ongoing execution is fully resolved)
 
 ---
 
