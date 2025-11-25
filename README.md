@@ -127,6 +127,8 @@ If you set aside **all 6 dice** as target numbers, you trigger **Rollover**:
 
 **Hand and Class-limit**: If you have more than the limit you have to discard down to the limit at the end of your turn.
 
+**Empower**: Trigger one effect ignoring original triggers.
+
 ---
 
 ## Resolving Priority
