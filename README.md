@@ -109,11 +109,25 @@ After resolving, discard it to the ability discard pile. Ongoing ability cards s
 **Heal / Revive:**  
 Heal restores HP up to max. Dead players cannot be healed; they must be revived. Revive returns a dead player to life with **1 HP** and re‑enables their classes.
 
-**Swap / Steal / Reroll / Flip:** Standard card terms (see card text for specifics).
+**Overheal**: When you heal a player to regain more than maximum health and the extra overhealed amount is wasted.
+
+**Remove**: remove the card from play, the card cannot be draw by any means.
 
 **Permanent gains:** Effects that increase and stay increased until the class is discarded. Track the value on the card.
 
 **Current target:** The player(s) you are attacking this turn.
+
+**Choose X of Y**: Draw Y cards and select X of them to keep, Discard the rest unless otherwise specified.
+
+**Flip**: flip a dice upside down, 1 becomes 6, 2 becomes 5, 3 becomes 4 and vise versa, a flipped dice does not count as "rolled".
+
+**Steal**: Select a random card from another player which you gain.
+
+**Reroll**: Roll the dice agian and continue with the new result. When a dice is reroll the reroller is the player who rolled the first (original) roll of the dice, even when forced by an enemy. 
+
+**Discard**: place the card face up on top of the discard pile for it respected card type.
+
+**Hand and Class-limit**: If you have more than the limit you have to discard down to the limit at the end of your turn.
 
 ---
 
