@@ -70,9 +70,9 @@ If you set aside **all 6 dice** as target numbers, you trigger **Rollover**:
 - Rollover can happen multiple times in a single damage roll.
 
 ### Targets during an attack
-- You select a target at the start of your turn unless an effect says otherwise.
-- If your target dies mid‑attack, they remain your “main target” for effect purposes.
-- Your new target becomes the next alive player clockwise from the dead target.  
+- You main target is then next alive enemy player unless an effect says otherwise.
+- If your main target dies, Your new target becomes the next alive player clockwise from the dead target.
+- If you main target is revived your target reverts back to your main target.
   You skip allies unless no enemies remain.
 
 ---
