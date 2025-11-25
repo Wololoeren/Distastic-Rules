@@ -1,139 +1,157 @@
-# Distastic-Rules
-The rules and glossary of Dicetastic
+# Dicetastic Rules
+The rules and glossary for **Dicetastic**.
 
-# Initalizing Game
-2 teams of 3 players each sits around a table, the team-members sits in an interleaved order. (A-B-A-B-A-B)
-all Players roll for who gets to start.
-place 7 piles face up of each 1 class and 1 ability-card. Starting player select on pile and player continue selecting a pile in a clockwise manner. The remaining card after all players have picked are discarded. 
-Place the class deck and the ability-deck (face down) and their respective discard pile(face up) at the center of the table.
-Note down or set Health-counter for each players starting health as indicated by their first class(white number at the top right coner of the card).
-Zeroth(0) round. play one round where each player may only play their ability-card(s) on their turn, classes remains inactive during round 0. (this is to avoid complete chaos of people try to play cards all at once)
+---
 
-# Start the game
-**First round**. First player takes the cup and 6d6 (dice) and start their attack.
-After the first player are done with their turn continue to the next player in a clockwise manner. After everyone have taken their turn, a new round starts
-The game can be configured in many interesting way to suit each player experience and thirst for strategy or complexity, See Game initiation
+## Initializing the Game
+- **Players:** Two teams of 3 players sit around a table in alternating order (A–B–A–B–A–B).
+- **Starting player:** All players roll. The highest roll chooses a starting player.
+- **Drafting classes and ability cards:**
+  1. Make **7 face-up piles**, each containing **1 class card + 1 ability card**.
+  2. Starting player chooses one pile. Continue choosing clockwise until everyone has one.
+  3. Discard all unchosen cards.
+- **Deck setup:** Place the class deck and ability deck face down in the center. Place their discard piles face up beside them.
+- **Starting health:** Each player starts with the health shown by their **first class** (white number in the top-right corner). Track health with counters.
+- **Zeroth (0) round:** Play one full round where each player may **only play ability cards** on their turns.
+  - **All classes are inactive during Round 0.**
+  - This prevents everyone from firing class effects immediately and keeps the opening from turning into chaos.
 
-**Attack-roll**: Roll 6d6 and set aside at least 1 die, goal is to score above 30 when all die are set aside sum them up that is your attack-score. dice NOT yet set aside are considered free dice
+---
 
-**attack-score less than 30**: you take the difference as self-inflicted damage (Ex: score of 25 mean you take 5 damage)
+## Start the Game
+### Turn order
+- **Round 1 begins** with the starting player.
+- Turns proceed clockwise.
+- After all players take a turn, a new round begins.
+- You may configure variants as desired (see “Initializing the Game”).
 
-**attack-score above 30**: make damage-roll with 6d6, fx if score is 33 your **target number**  is 3 (33-30) set aside at least one 3 until you roll no 3's then add up the dies set aside and deal that amount of damage to your target. Attack-score greater than 36 still rolls for 6's but they do damage according to your target number.
+---
 
-**attack-score equal to 30**: draw an ability card.
+## Attack Roll
+On your turn you make an **attack roll**.
 
-For each roll, after the first dice set aside each additional die set aside are considered **extra dice**
+1. Roll **6d6**.
+2. After each roll, you must **set aside at least 1 die**.
+3. Set-aside dice are locked. All other dice are **free dice** and may be rerolled.
+4. Continue until all dice are set aside.
+5. Add all set-aside dice together. This total is your **attack-score**.
 
-**Damage-roll**: if you manage to roll all 6 dies to a valid target number you may continue your damage roll with 6 new die (**Rollover**).
-If you main target is dead, they remains you main target, you new target is the next alive player sitting clockwise to your main target, ignoring allies unless no enemies are left.
+**Goal:** reach **above 30**.
 
-# Glossary
-**Spillover**: if you deal more damage than the target health has the remaining damage will go to your next target, if no targets are left it goes to yourself or the next ally in a clockwise fashion from the previous target.
+**Extra dice:** After the first die you set aside in a roll, every additional die you set aside during that same roll counts as an **extra die** (some class effects care about this).
 
-**Abilities**: You gain new abilities from you classes and ability-cards which modify your game and chances. most classes give abilities you can benefit from multiple time and ablitiy-cards are consider one time use, thou some cards have overlapping mechanics.
+### Attack-score outcomes
+- **Attack-score < 30:**  
+  You take **self‑inflicted damage equal to (30 − attack-score)**.
+  - Example: attack-score 25 → take 5 self‑inflicted damage.
 
-**Ability-card**: You can play an ability-card to execute its effect whenever you want, unless the card specifies otherwise. When playing an abilty-card place it face up infront of you when the cards and all subsequential -effects are resolved move it to the ability discard pile. An ability card is considered "fully"-played, when it is placed in the discard pile. Some ability-cards have on-going effects and may stay infront of you for many rounds, before they are concluded, if you die all on-going ability-cards are discarded.
+- **Attack-score = 30:**  
+  Draw **1 ability card**.
 
-**Classes**: have one or more abilities which can be either Passive or Active, each ability have 1 effect but can have multiple triggers.  Each trigger is fulfilled by an event. an effect may also have a cost which need to be spend when the effect is triggered. Classes are play immediatly infront of the player
+- **Attack-score > 30:**  
+  You proceed to a **damage roll**.  
+  Your **target number** = (attack-score − 30).  
+  - Example: attack-score 33 → target number 3.
 
-**Class-Effects**: When a passive-effect or active-effect which you decided to use is triggered push the class card slightly forward until its effect and all subsequential effects are resolved, then slide it back.
+> **Overcharge cap:** If your attack-score is above 36 (target number > 6), you still roll for **6s** in the damage roll. Each 6 counts as your target number.
 
-**Overcharge**: if you have increased your attack-score with an ability to more than 36 you can still roll your target number as the 6's count as every number above 6 aswell, They add damages equal to the number they were set aside as.
+---
 
-**Rollover**: When all 6 dice has been set aside doing a damage roll, note the sum and pick up all the dice and start over any dice set aside adds to the sum. Rollover can occure multiple times for one damage roll. Dice set aside continues counting up after Rollover
+## Damage Roll
+1. Roll **6d6**.
+2. Set aside any dice matching your target number.
+3. Reroll free dice until no more target numbers appear.
+4. Add all set-aside dice together — that total is the damage you deal to your current target.
 
-**Health**: Players cannot gain more health than their first starting class, but you may regain lost health with healing abilities.
+### Rollover
+If you set aside **all 6 dice** as target numbers, you trigger **Rollover**:
+- Roll a fresh 6d6 and continue the damage roll.
+- Add new set-aside dice to the same damage total.
+- Rollover can happen multiple times in a single damage roll.
 
-**Passive**: Always do this when triggered.
+### Targets during an attack
+- You select a target at the start of your turn unless an effect says otherwise.
+- If your target dies mid‑attack, they remain your “main target” for effect purposes.
+- Your new target becomes the next alive player clockwise from the dead target.  
+  You skip allies unless no enemies remain.
 
-**Active**: Cardholder may choose to not resolve the effect when triggered.
+---
 
-**Dead**: When you have 0 Hp you are dead, you immediately disable all your classes until you are revived, you cannot play ability-cards you make no attacks on your turn, you cannot be attacked or targeted or take damage. Keep you cards as you can still be revive or take part in the game when special classes are in play or help run the game smoothly.
+## Glossary
 
-**Inactive**: A class may be deactivated, indicated by rotating it upside down. You can reactivate one inactive class after the start of your turn, or with some abilities.
+**Spillover:** If you deal more damage than a target has health remaining, excess damage transfers to the **next valid target** clockwise. If no enemy targets remain, spillover hits yourself or the next ally clockwise.
 
-**Disable**: A class is flipped to be face down it is inactive and cannot be activated until a conditon is met.
+**Abilities:** Effects gained from classes and ability cards.
 
-**Empower**: Trigger one effect ignoring original triggers. 
+**Ability card:** You may play an ability card at any time unless stated otherwise.  
+After resolving, discard it to the ability discard pile. Ongoing ability cards stay in front of you until they end or you die.
 
-**Untargetable**: as long as there are other valid target you cannot be the target of an attack, becomming untargetable doing an attack roll agianst you does not change the target.
+**Classes:** Each class has **Passive** and/or **Active** abilities. Keep your classes in front of you.
 
-**Heal**: You increase you health by an amount up to your starting health (maximum health). dead players cannot be healed they must be revived first.
+**Overcharge:** If an effect increases your target number above 6, you still roll for 6s. Each 6 counts as your target number.
 
-**Revive**: If you are dead you can be revived, you gain 1 health and all you classes re-enables and you attack on your next turn.
+**Health:** You cannot heal above your starting/max health.
 
-**Overheal**: When you heal a player to regain more than maximum health and the extra overhealed amount is wasted.
+**Passive:** Always resolves when triggered.
 
-**Swap**: Give a card of your choice then take another one of your choice from the recieving player.
+**Active:** Optional; you may choose whether to resolve it when triggered.
 
-**Choose X of Y**: Draw Y cards and select X of them to keep, Discard the rest unless otherwise specified.
+**Dead:** At 0 HP you become dead. Dead players cannot attack, be attacked, be targeted, play cards, or take damage. You can be revived by effects.
 
-**Flip**: flip a dice upside down, 1 becomes 6, 2 becomes 5, 3 becomes 4 and vise versa, a flipped dice does not count as "rolled".
+**Inactive:** Rotate a class upside down to show it is inactive. You may reactivate **one inactive class at the start of your turn** unless an effect says otherwise.
 
-**Steal**: Select a random card from another player which you gain.
+**Disable:** Flip a class face‑down. It does not function and cannot be reactivated until a condition is met.
 
-**Reroll**: Roll the dice agian and continue with the new result. When a dice is reroll the reroller is the player who rolled the first (original) roll of the dice, even when forced by an enemy. 
+**Empower:** Trigger one effect **ignoring its normal triggers**.
 
-**Permanent gains**: Effects which are increased when triggered, they keep their increased valued until discarded. indicate and track the value with one or more dice placed on card.
+**Untargetable:** If other valid targets exist, you cannot be chosen. Forced targeting overrides this only if the forcing effect says it can.
 
-"**You**" or "**yourself**" is always implied unless otherwise is stated.
+**Heal / Revive:**  
+Heal restores HP up to max. Dead players cannot be healed; they must be revived. Revive returns a dead player to life with **1 HP** and re‑enables their classes.
 
-**Discard**: place the card face up on top of the discard pile for it respected card type.
+**Swap / Steal / Reroll / Flip:** Standard card terms (see card text for specifics).
 
-**Remove**: remove the card from play, the card cannot be draw by any means.
+**Permanent gains:** Effects that increase and stay increased until the class is discarded. Track the value on the card.
 
-**The current target**: the player or players who is target of an attack this turn.
+**Current target:** The player(s) you are attacking this turn.
 
-**This class**: refers to the class on which the ability is written.
+---
 
-**Additional Targets**: Some abilities allow for selecting additional target theses are only subejct to results specified by you abilities.
+## Resolving Priority
 
-**Hand and Class-limit**: If you have more than the limit you have to discard down to the limit at the end of your turn.
+**Card‑draw priority:** When you draw a card, you must read it and decide whether to keep or play it **before the game continues**.
 
-# Resolving Priority
-**Card-Draw Priority**: When drawing a card you always read it then decide to keep or play it immediately, only when you indicated your intend may the game continue.
+**Play precedence:** Effects resolve in the order they are played: **first played, first executed**. If still unclear, priority goes to the player with the most recent turn.
 
-FX: A and B both draws a ability-card on an "end of round" -trigger, A draws first since they were the last player to have turn, they may play the card before B draws but chooses not to, B draws and A want to Steal B's new card with their "Steal" card. B chooses to play it immediately avoiding A's steal. 
+**Class precedence:** Resolve your class abilities **left to right**. You may reorder your classes at the end of your turn.
 
-**Play precedence**: The game is first play, first executed (for Active and Ability-cards). Any conflicting precedence, disagreement or ambiguity are resolved by giving the player with the most recent turn priority.
+**Conflicting event execution:** If two events trigger simultaneously and the first event removes the second event’s trigger, the second event is cancelled.
 
-**Class precedence**: If you have more than one class place them in a row. Apply classes effects left to right you may change the order at the end any turn. 
+**Shared class abilities:** If you share a class, you gain its effects as if you owned it. Shared classes cannot be discarded/removed/transferred via sharing.
 
-**Conflicting event execution**: If two events is triggered on the same effect and the first event removes the trigger of the second event from play the second event is cancelled. FX A and B both gets an "end of round" trigger, A uses it effect to discards the triggered class of B, thus B does not get to trigger their event. 
+---
 
-**Shared class abilities**: You gain the effects of a class as if you had the class yourself. Any effect applied to the shared class are transfered to the original card (fx permanent gains). A class card cannot be discarded/removed/given away though the shared connection.
-You apply share class-effect from other player in order of most recent turn first after you applied your regular class-effect left to right.
-Shared Classes cannot be shared agian but the same class can be shared to multiple players. If the original class is discard then the shared class is lost.
+## Damage Types
 
-**Passive resolve order for classes**: most recent turn gets priority.
-A class is resolved by checking the top most trigger and resolving its effect before continuing to the one under.
+- **Damage:** From a damage roll or a newly created damage instance.
+- **Extra‑damage:** Added on top of an existing damage instance.
+- **Self‑inflicted damage:** Damage with no attacker.
+- **Spillover‑damage:** A new damage instance created when leftover damage transfers after a target dies.
 
-
-## Damage
-**Multiple damage instances**: Always resolve the damage to the main target first, then resolve the next player's damage in a clockwise manner adding sources of damage each time they spillover. while resolving secondary trigged effect of "immediately" unless otherwise specified.
-
-**Attacker**: Your attacker is any player who deal any damage to you this round.
-Damage types are kept track of individually until all effects are applied then damage is summed and applied together.
-
-**Damage**: damage from an attack roll or a new created instants of damage.
-
-**Extra-damage**: damage added untop of an exsisting damage instants.
-
-**Self-inflicted damage**: Unique damage instants without an attacker.
-
-**Spillover-damage**: Unique damage instants without an attacker, it is conveted from damage, extra-damage and spillover-damage leftover when a player dies.
+---
 
 ## Triggers
-**When**: Effect is applied with the result (pause ongoing execution resolve then add this result to the ongoing result then continue).
 
-**Before**: Effect is applied before result. (pause the ongoing execution then full resolve this effect then continue)
+- **When:** Resolve simultaneously with the result (pause current execution, resolve the effect, then continue).
+- **Before:** Resolve before the result (pause execution, fully resolve effect, then continue).
+- **After:** Resolve after the current execution fully finishes.
 
-**After**: Effect is applied after result. (pause this execution until the ongoing execution is fully resolved)
+---
 
+## Recommendations
 
-# Recommendations
-**Reducting Complexity**: The more classes in play the more overwhelhming and time consuming the game can become it is recommended to set an upper limit for classes, especialy for games with many players or new players.
+**Reducing complexity:** More classes in play increases complexity and play time. Consider a class limit for large groups or new players.
 
-**3.second rule**: It is consider polite to wait at least 3.seconds after each event so players can notify fulfilled triggers and execute effects.
+**3‑second rule:** After any event, wait ~3 seconds so players can call triggers.
 
-**Anti-recurrence**: An effect cannot be triggered twice by any identical subsequential triggers. (if you run into an infinite loop stop it after first iteration)
+**Anti‑recurrence:** An identical trigger cannot cause the same effect more than once in a single chain. If you hit an infinite loop, stop after the first repetition.
