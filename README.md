@@ -169,6 +169,7 @@ If you set aside **all 6 dice** as target numbers, you trigger **Rollover**:
 **3‑second rule:** After any event, wait ~3 seconds so players can call triggers.
 
 **Anti‑recurrence:** An identical trigger cannot cause the same effect more than once in a single chain. If you hit an infinite loop, stop after the first repetition.
+
 ---
 
 ## Card Explanation
