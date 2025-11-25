@@ -150,7 +150,7 @@ If you set aside **all 6 dice** as target numbers, you trigger **Rollover**:
 - **Damage:** From a damage roll or a newly created damage instance.
 - **Extra‑damage:** Added on top of an existing damage instance.
 - **Self‑inflicted damage:** Damage with no attacker.
-- **Spillover‑damage:** A new damage instance created when leftover damage transfers after a target dies.
+- **Spillover‑damage:** A new damage instance with no attacker created when leftover damage transfers after a target dies.
 
 ---
 
