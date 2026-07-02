@@ -77,6 +77,17 @@ If you set aside **all 6 dice** as target numbers, you trigger **Rollover**:
 
 ---
 
+## Ending the Game
+- The game ends when all players from a team are dead and all effects have been executed leaving the players on the team with one or more players alive the victor.
+- The game ends when all players are dead, resulting in a draw.
+
+---
+
+## Scoring (Turnaments game/Multiple games)
+- After a match each player are rewarded with 1 point per remaining health of their team. Mix up the teams between each game. The player with the most points after 3,6 or 9 games are the turnament winner.
+
+---
+
 ## Glossary
 
 **Spillover:** If you deal more damage than a target has health remaining, excess damage transfers to the **next valid target** clockwise. If no enemy targets remain, spillover hits yourself or the next ally clockwise.
