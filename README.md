@@ -71,7 +71,7 @@ If you set aside **all 6 dice** as target numbers, you trigger **Rollover**:
 
 ### Targets during an attack
 - You main target is then next alive enemy player unless an effect says otherwise.
-- If your main target dies, Your new target becomes the next alive player clockwise from the dead target.
+- If your main target dies, Your new target becomes the next alive enemy player clockwise from the dead target.
 - If you main target is revived your target reverts back to your main target.
   You skip allies unless no enemies remain.
 
