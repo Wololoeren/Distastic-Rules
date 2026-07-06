@@ -13,7 +13,7 @@ The rules and glossary for **Dicetastic**.
 - **Deck setup:** Place the class deck and ability deck face down in the center. Place their discard piles face up beside them.
 - **Starting health:** Each player starts with the health shown by their **first class** (white number in the top-right corner). Track health with counters.
 - **Zeroth (0) round:** Play one full round where each player may **only play ability cards** on their turns.
-  - **All classes are inactive during Round 0.**
+  - **All classes are disabled until start of round 1.**
   - This prevents everyone from firing class effects immediately and keeps the opening from turning into chaos.
 
 ---
