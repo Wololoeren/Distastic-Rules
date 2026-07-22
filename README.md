@@ -140,6 +140,8 @@ If you set aside **all 6 dice** as target numbers, you trigger **Rollover**:
 
 **Empower**: Trigger one effect ignoring original triggers.
 
+**Throw**: Each time the dice a rolled during an Attack roll or Damage roll.
+
 ---
 
 ## Resolving Priority
